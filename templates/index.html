@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image OCR</title>
+</head>
+<body>
+    <h1>Image OCR</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if text %}
+    <h2>OCR Text:</h2>
+    <pre>{{ text }}</pre>
+    {% endif %}
+
+    {% if image %}
+    <h2>Processed Image:</h2>
+    <img src="data:image/jpeg;base64,{{ image }}">
+    {% endif %}
+</body>
+</html>
