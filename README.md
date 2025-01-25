@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Optical Character Recognition (OCR) Web Application
 
