@@ -89,15 +89,7 @@ project/
 
 ---
 
-## Contribution
 
-Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests to enhance the project.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
 =======
